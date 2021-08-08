@@ -57,7 +57,7 @@ const NavBar = (props) => {
         <div>
           <div className="user">
             <p>Welcome</p>
-            <p>{userInfo && userInfo.userDetails}</p>
+            <p>{userInfo && JSON.stringify(userInfo)}</p>
             <p>{userInfo && userInfo.identityProvider}</p>
           </div>
         </div>
